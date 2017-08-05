@@ -2,7 +2,7 @@
 # Maintainer: Jan Alexander Steffens (heftig) <jan.steffens@gmail.com>
 
 pkgname=gnome-settings-daemon
-pkgver=3.24.2
+pkgver=3.24.3
 pkgrel=1
 pkgdesc="GNOME Settings Daemon"
 url="https://github.com/pfrybar/gnome-settings-daemon"
@@ -13,7 +13,7 @@ depends=(dconf gnome-desktop gsettings-desktop-schemas libcanberra-pulse libnoti
          libgudev gtk3-print-backends libnm)
 makedepends=(intltool xf86-input-wacom libxslt docbook-xsl python git gnome-common)
 groups=(gnome)
-_commit=7c06b4a983b535bc3e20e40c3173434af68d79d1  # paul-gnome-3-24-2
+_commit=60ae87659158a27ad4ba00122f339c336cd7d601  # paul-gnome-3-24-3
 source=("git+https://github.com/pfrybar/gnome-settings-daemon#commit=$_commit"
         "git+https://git.gnome.org/browse/libgnome-volume-control")
 sha256sums=('SKIP'
